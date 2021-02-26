@@ -2,7 +2,7 @@ import { createContext, useState, ReactNode, useEffect } from 'react';
 import challenges from '../../challenges.json';
 
 interface Challenge {
-  type: 'body' | 'eyee';
+  type: 'body' | 'eye';
   description: string;
   amount: number;
 }
